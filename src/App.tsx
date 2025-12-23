@@ -1,26 +1,32 @@
-//pascallCase
-//App
-import { Heading } from './components/Heading';
-import './styles/theme.css'
-import './styles/global.css'
-import { TimerIcon } from 'lucide-react';
+import "./styles/theme.css";
+import "./styles/global.css";
+import  Container  from "./components/Container";
+import  Heading  from "./components/Heading";
 
-
-function App(){
-
-    return(
+function App() {
+  return (
     <>
-    <Heading >
-      olaMundo!
+      <Container>
+        <Heading>logo</Heading>
+      </Container>
 
-      <button>
-        <TimeIcon/>
-      </button>
-    </Heading>
-     <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, itaque eaque ab tempora autem quaerat voluptatum unde mollitia, eius minus nobis suscipit sint saepe placeat! Modi ea quaerat suscipit dicta?
-     </p>
-     
-     </>)
+      <Container>
+        <Heading>Menu</Heading>
+      </Container>
+
+      <div className="container-fluid">
+        <div className="container">
+          <div className="content">
+            <section>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
+              esse! Vel neque, alias doloremque, optio facere sunt maiores,
+              velit et ipsam nemo asperiores assumenda adipisci dicta laborum
+              inventore fuga culpa!
+            </section>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
-export {App};
+export { App };
