@@ -23,10 +23,12 @@ function App() {
       </Container>
 
       <Container>
+
         <form className="form" action="">
           <div className="formRow">
-            <DefaultInput type="text" labelText="Task" id='meuInput' />
+            <DefaultInput type="text" labelText="Task" id='meuInput' placeholder="Digite algo"/>
           </div>
+
           <div className="formRow">
             <p>Lorem ipsum dolor sit amet.</p>
           </div>
