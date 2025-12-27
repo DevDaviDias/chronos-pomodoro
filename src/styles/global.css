@@ -19,7 +19,7 @@ body{
     flex-direction: column;
     gap: 2.4rem;
 }
-.FormRow{
+.formRow{
      display: flex;
     align-items: center;
     justify-content: center;

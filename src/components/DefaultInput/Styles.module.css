@@ -8,10 +8,11 @@
   color: var(--text-default);
   border-bottom: 0.2rem solid var(--primary) ;
   transition: all 0.1s ease-in-out;
+  outline: none;
 }
 .input:focus{
-  border: 0.2rem solid var(--primary);
-   border-radius: 0.8rem;
+  border: 0.2rem solid var(--primary) ;
+  border-radius: 0.8rem;
 }
 
 .input::placeholder{
